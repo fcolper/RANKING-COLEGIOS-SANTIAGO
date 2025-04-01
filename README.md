@@ -19,3 +19,4 @@ A través de visualizaciones interactivas—como mapas de dispersión, mapas de 
 
 [Ranking Promedio 2018-2025 Colegios Mapa Santiago](https://fcolper.github.io/RANKING-COLEGIOS-SANTIAGO/ranking_colegios_2018_2025.html)
 
+*Todos los ranking son enfocados en la comuna de Santiago y no a nivel nacional*
