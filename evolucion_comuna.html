@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <!--
-	Forty
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>COLPER</title>
+		<title>COLPER - Datos...ni tan necesarios</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,34 +18,36 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
 						<a href="index.html" class="logo"><strong>COLPER</strong> <span>Datos y relatos</span></a>
 						<nav>
-							<a href="#menu">MENU</a>
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
+
 				<!-- Menu -->
 				<nav id="menu">
 					<ul class="links">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="busca_colegio.html" target="_blank">¿Donde está tu colegio?</a></li>
 						<li><a href="filtro_comuna.html" target="_blank">Filtra por comuna</a></li>
-						<li><a href="evolucion_comuna.html" target="_blank">Progreso comunal</a></li>
+						<li><a href="landing.html" target="_blank">Progreso comunal</a></li>
 					</ul>
 				</nav>
+
 				<!-- Banner -->
-					<section id="banner" class="major">
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
 						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
 							<header class="major">
-								<h1>Ranking de colegios en Santiago, Chile</h1>
+								<h1>¿Tu comuna a mejorado en su puntaje promedio?</h1>
 							</header>
 							<div class="content">
-								<p>En 3 gráficos te muestro: Donde se encuentran 
-									los colegios con mejores puntajes, Como varía el ranking de tu colegio desde el 2018 y Como evoluciona el puntaje promedio en cada comuna.
-								</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Vamos</a></li>
-								</ul>
+								<p>Revisa la tendencia que ha tenido tu comuna según el puntaje promedio de acceso a la universidad.</p>
 							</div>
 						</div>
 					</section>
@@ -54,37 +56,33 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="busca_colegio.html" class="link">¿Donde está tu colegio?</a></h3>
-										<p>Busca en el mapa tu colegio según ranking promedio desde el 2018</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="filtro_comuna.html" class="link">Filtra por comuna</a></h3>
-										<p>Observa la evolución de tu colegio desde el 2018 según puntajes y ranking a nivel de Santiago</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="evolucion_comuna.html" class="link">Progreso comunal</a></h3>
-										<p>Como a evolucionado el puntaje promedio en cada comuna</p>
-									</header>
-								</article>
+							<section id="one">
+								<div class="inner">
+									<p>El puntaje promedio en los exámenes de admisión universitaria es un reflejo de múltiples factores 
+										que afectan la calidad de la educación en cada comuna. No es solo una cuestión de enseñanza en 
+										las aulas, sino que está influenciado por aspectos socioeconómicos, culturales, demográficos y 
+										por la gestión de los colegios municipales y privados. Analizar estos factores nos permite 
+										comprender por qué algunas comunas mejoran su desempeño mientras otras se estancan </p>
+									
+									<h3>Próximos pasos</h3>
+
+									<p>Indicar proporción de colegios municipales versus el universo total de colegios por comuna.</p>
+										 
+									<p>Incorporar indicador financiero, presupuesto por comuna en educación y explorar tendencias.</p>
+										
+
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="one" class="spotlights">
+								<!-- Aquí es donde insertamos el iframe -->
+								<section style="display: flex; justify-content: center; align-items: center;">
+									<h3> </h3>
+									<iframe src="evolucion_puntaje_promedio_comuna.html" width="75%" height="600" style="border:none;"></iframe>
+								</section>
 							</section>
 					</div>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
